@@ -83,3 +83,14 @@ This project has been built from Sails.js up by Arek Sredzki, with inspiration f
 
 ## License
 [MIT License](LICENSE.md)
+
+# TIE 
+
+# How To maintain this fork
+1. Use Sync Fork button on GitHub
+2. Build, Test, Release
+
+# Achtung zu Beachten
+Nach der Installation des Electron Release Servers muss dessen URL inkl. Port in den Electron_build_properties unter "updateServer": eingetragen werden bevor die Squirel Clients gebaut werden. Sonst wird beim nächsten Upgrade der Electron *nicht* automatisch upgedated.
+
+Edits für assets/js/home/home.pug beachten
