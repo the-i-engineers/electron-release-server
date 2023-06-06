@@ -1,24 +1,24 @@
 .row.text-center
   .col-md-12
-    h2 #{process.env.WEBSITE_TITLE || 'Our Amazing Electron App'}
+    h2 i-engine Electron Client
 
 if process.env.WEBSITE_HOME_CONTENT 
   div !{process.env.WEBSITE_HOME_CONTENT}
 else 
   .row.text-center.padding-20-0
     .col-md-4
-      i.fa.fa-5x.fa-diamond
-      h3 Polished
+      i.fa.fa-5x.fa-download
+      h3 Download
     .col-md-4
-      i.fa.fa-5x.fa-magic
-      h3 Magic
+      i.fa.fa-5x.fa-info-circle
+      h3 i-engine
     .col-md-4
-      i.fa.fa-5x.fa-bomb
-      h3 TheBomb.com
+      i.fa.fa-5x.fa-database
+      h3 www.tie.ch
     
 .row.text-center
   .col-md-12
     .jumbotron
       p
         a.btn.btn-success.btn-lg(href="/releases")
-          | Get it now
+          | i-engine TEST
