@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  status-check:
+    if: always()
+    uses: the-i-engineers/reusable-workflows/.github/workflows/status-check.yml@5.5.0
